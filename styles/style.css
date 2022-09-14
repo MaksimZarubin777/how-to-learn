@@ -15,12 +15,14 @@
 }
 
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   display: flex;
+  overflow: hidden;
 }
 
 .header__title{
@@ -51,15 +53,15 @@
 
 .header__main-illustration{
   position: absolute;
-  margin-left:835px;
-  margin-top:148px;
+  left:835px;
+  top:148px;
   z-index: 2;
 }
 
 .header__square-pic{
   position: absolute;
-  margin-left:1032px;
-  margin-top: 64px;
+  left:1032px;
+  top: 64px;
   background-color: #2f80ed;
   width: 568px;
   height: 568px;
