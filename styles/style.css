@@ -30,7 +30,7 @@
   width: 730px;
   align-self: center;
   margin-left: 64px;
-  font-size: 60px;
+  font-size: 102px;
   font-weight: 600;
   line-height: 96px;
 }
@@ -56,6 +56,8 @@
   left:835px;
   top:148px;
   z-index: 2;
+  width: 765px;
+  height: 608px;
 }
 
 .header__square-pic{
@@ -99,6 +101,7 @@
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
 
 }
 .two-columns__main-text{
@@ -247,8 +250,11 @@
 
 .kaufman__triangle{
   position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
   margin-left:933px;
   z-index: 0;
+  width: 877px;
+  height: 877px;
 }
 
 .footer{
